@@ -52,7 +52,6 @@ body {
     justify-content: center;
     align-items: center;
     
-   
 
 }
 
@@ -114,9 +113,36 @@ body {
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: auto;
+}
+
+.gallleryColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.imageBox{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 
+img{
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.overlay {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 260px;
+  }
 
 .footer{
     width: 100%;
